@@ -206,9 +206,9 @@ void main()
 				if(head_x == apple_x && head_y == apple_y)
 				{
 					del(apple_x,apple_y);
+					push(head_x,head_y);
 					rand_apple();
 					display(apple_x,apple_y);
-					push(head_x,head_y);
 				}
 				else
 				{
